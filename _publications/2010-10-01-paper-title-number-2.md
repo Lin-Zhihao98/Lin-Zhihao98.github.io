@@ -2,11 +2,12 @@
 title: "SLAM2: Simultaneous Localization and Multimode Mapping for indoor dynamic environments"
 collection: publications
 category: manuscripts
-permalink: https://www.sciencedirect.com/science/article/pii/S0031320324008057
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+permalink: 'https://www.sciencedirect.com/science/article/pii/S0031320324008057'
+excerpt: 'we present SLAM^2, a novel semantic RGB-D SLAM system that can obtain accurate estimation of the camera pose and the 6DOF pose of other objects, resulting in complete and clean static 3D model mapping in dynamic environments.'
 date: 2025-02-01
 venue: 'Pattern Recognition'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
+paperurl: 'http://lin-zhihao98.github.io/files/slam2.pdf'
+link: https://www.sciencedirect.com/science/article/pii/S0031320324008057  # 添加这一行
 citation: 'Z. Lin, Q. Zhang, Z. Tian, et al., "SLAM2: Simultaneous Localization and Multimode Mapping for indoor dynamic environments," Pattern Recognit., vol. 158, p. 111054, 2025.'
 ---
 

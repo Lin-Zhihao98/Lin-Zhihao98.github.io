@@ -3,7 +3,7 @@ title: "DPL-SLAM: enhancing dynamic point-line SLAM through dense semantic metho
 collection: publications
 category: manuscripts
 permalink: 'https://ieeexplore.ieee.org/abstract/document/10477312'
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'This paper presents a novel SLAM system, Semantic Point and Line Features SLAM (DPL-SLAM). By using dection algorithm and LK flow constrains, our proposed SLAM framework can handle dynamic environments and can be used for real-time operation.'
 date: 2024-3-25
 venue: 'IEEE Sensors Journal'
 paperurl: 'http://lin-zhihao98.github.io/files/dpl_slam.pdf'
