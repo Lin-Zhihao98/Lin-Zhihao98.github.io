@@ -1,0 +1,34 @@
+---
+title: "A Conflicts-free, Speed-lossless KAN-based Reinforcement Learning Decision System for Interactive Driving in Roundabouts"
+excerpt: " The proposed algorithm employs a deep Q-learning network to effectively learn safe and efficient driving strategies in complex multi-vehicle roundabouts.  <br/><img src='/images/its_kan.png' style='width:100%; display:block; margin-left:auto; margin-right:auto;'>"
+collection: projects
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety-Critical Multi-Agent MCTS for Unsignalized Intersections</title>
+</head>
+<body>
+    
+    <h2>Introduction</h2>
+    
+    <figure style="text-align: center; margin: 0px 0;">
+        <img src='/images/its_kan.png' alt="Safety-Critical Multi-Agent MCTS Framework Overview" style="width:90%;">
+      </figure>
+
+    <p> Safety and efficiency are crucial for autonomous driving in roundabouts, especially in the context of mixed traffic where autonomous vehicles (AVs) and human-driven vehicles coexist. This paper introduces a learning-based algorithm tailored to foster safe and efficient driving behaviors across varying levels of traffic flows in roundabouts. The proposed algorithm employs a deep Q-learning network to effectively learn safe and efficient driving strategies in complex multi-vehicle roundabouts. Additionally, a KAN (Kolmogorov-Arnold network) enhances the AVs' ability to learn their surroundings robustly and precisely. An action inspector is integrated to replace dangerous actions to avoid collisions when the AV interacts with the environment, and a route planner is proposed to enhance the driving efficiency and safety of the AVs. Moreover, a model predictive control is adopted to ensure stability and precision of the driving actions. The results show that our proposed system consistently achieves safe and efficient driving whilst maintaining a stable training process, as evidenced by the smooth convergence of the reward function and the low variance in the training curves across various traffic flows. Compared to state-of-the-art benchmarks, the proposed algorithm achieves a lower number of collisions and reduced travel time to destination.</p>
+    
+    <h2>Simulation Results</h2>
+    
+    <figure style="text-align: center; margin: 0px 0;">
+        <img src='/images/its_kan_results.png' alt="Safety-Critical Multi-Agent MCTS Framework Overview" style="width:90%;">
+      </figure>
+
+    <p> This paper presents a DRL-based algorithm to enhance the safety and efficiency of AVs navigating roundabouts, especially in complex traffic scenarios involving HDVs. By utilizing a DQN capable of processing state information of surrounding vehicles, the system eliminates the need for manual feature engineering and thus enables the AVs to effectively interpret their environment. The integration of a KAN significantly bolsters the AVs' capacity to learn their surroundings with greater accuracy and reliability. The algorithm also incorporates an action inspector to minimize collision risks and a route planner to improve driving efficiency. Additionally, the MPC control ensures the stability and precision of driving actions, contributing to the overall robustness of the system. Evaluations demonstrate the algorithm's superior performance, consistently achieving safe and efficient driving across varying traffic flows. Compared to state-of-the-art benchmark algorithms, the proposed algorithm shows a notable reduction in collision incidents, decreased travel times, and accelerated training convergence rates.</p>
+    
+    
+</body>
+</html>

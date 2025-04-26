@@ -1,0 +1,29 @@
+---
+title: "SLAM2: Enhancing Dynamic Point-Line SLAM Through Dense Semantic Methods"
+excerpt: "we present SLAM^2, a novel semantic RGB-D SLAM system that can obtain accurate estimation of the camera pose and the 6DOF pose of other objects, resulting in complete and clean static 3D model mapping in dynamic environments.  <br/><img src='/images/SLAM2.png'>"
+collection: projects
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety-Critical Multi-Agent MCTS for Unsignalized Intersections</title>
+</head>
+<body>
+   
+    <h2>Introduction</h2>
+    
+    <figure style="text-align: center; margin: 20px 0;">
+        <img src='/images/SLAM2.png' alt="Safety-Critical Multi-Agent MCTS Framework Overview" style="width:90%;">
+        <figcaption style="margin-top: 10px; font-style: Arial;">Fig. 1: Overview of our SLAM^2 system. (a) Input RGB image. (b) Semantic segmentation plane image. (c) Feature extraction and dynamic object detection: pink dots and lines
+            indicate dynamic features, green dots and lines indicate static features. (d–f) Our mapping module’s three reconstruction modes: (d) sparse, (e) dense, and (f) semi-dense. (For
+            interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figcaption>
+      </figure>
+
+    <p>Traditional visual Simultaneous Localization and Mapping (SLAM) methods based on point features are often limited by strong static assumptions and texture information, resulting in inaccurate camera pose estimation and object localization.To address these challenges, we present SLAM^2, a novel semantic RGB-D SLAM system that can obtain accurate estimation of the camera pose and the 6DOF pose of other objects, resulting in complete and clean static 3D model mapping in dynamic environments. Our system makes full use of the point, line, and plane features in space to enhance the camera pose estimation accuracy. It combines the traditional geometric method with a deep learning method to detect both known and unknown dynamic objects in the scene. Moreover, our system is designed with a three-mode mapping method, including dense, semi-dense, and sparse, where the mode can be selected according to the needs of different tasks. This makes our visual SLAM system applicable to diverse application areas. Evaluation in the TUM RGB-D and Bonn RGB-D datasets demonstrates that our SLAM system achieves the most advanced localization accuracy and the cleanest static 3D mapping of the scene in dynamic environments, compared to state-of-the-art methods. Specifically, our system achieves a root mean square error (RMSE) of 0.018 m in the highly dynamic TUM w/half sequence, outperforming ORB-SLAM3 (0.231 m) and DRG-SLAM (0.025 m). In the Bonn dataset, our system demonstrates superior performance in 14 out of 18 sequences, with an average RMSE reduction of 27.3% compared to the next best method.</p>
+    
+    
+</body>
+</html>

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,54 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Autonomous Systems & Connectivity, University of Glasgow (UofG), Feb. 2026 (Expected, Supervisor: Dr. Jianglin Lan)
+* M.S. in Circuits and Systems, Jilin University, 2022
+* B.S. in Electronic Information Engineering, Liaocheng University, 2018
 
-Work experience
+Honors
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Apr. 2025: Mobility Scholarship of University of Glasgow
+  
+* June 2022: Doctoral Scholarship of the China Scholarship Council (CSC)
+  
+* Dec. 2021: Academic Scholarship of Jilin University (2020-2021)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C/C++, MATLAB, R, and Latex 
+* Machine Learning Tools: Pytorch, Sklearn, Pandas, and Numpy
+* Hobbies: Badminton, Swimming, and Hiking 
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+
+
+Service
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Reviewer of the IEEE Transactions on Transportation Electrification
+* Reviewer of the IEEE Transactions on Instrumentation and Measurement
+* Reviewer of the ISA Transactions 
+* Program Committee Member of the 45th IEEE ICDCS 2025

@@ -8,6 +8,7 @@ date: 2025-02-01
 venue: 'Pattern Recognition'
 paperurl: 'http://lin-zhihao98.github.io/files/slam2.pdf'
 link: https://www.sciencedirect.com/science/article/pii/S0031320324008057  # 添加这一行
+bibtexurl: '/projects/projects-2/'
 citation: 'Z. Lin, Q. Zhang, Z. Tian, et al., "SLAM2: Simultaneous Localization and Multimode Mapping for indoor dynamic environments," Pattern Recognit., vol. 158, p. 111054, 2025.'
 ---
 

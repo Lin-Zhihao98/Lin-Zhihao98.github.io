@@ -1,0 +1,64 @@
+---
+title: "MAMCTS"
+excerpt: "This paper proposes a safety-critical multi-agent  Monte Carlo tree search (MCTS) framework that integrates deterministic and probabilistic predictions to enable cooperative decision making in complex intersection scenarios.  <br/><img src='/images/mcts.png'>"
+collection: projects
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety-Critical Multi-Agent MCTS for Unsignalized Intersections</title>
+</head>
+<body>
+    <h1>Safety-Critical Multi-Agent MCTS for Unsignalized Intersections</h1>
+    <h2>Introduction</h2>
+    
+    <figure style="text-align: center; margin: 20px 0;">
+        <img src='/images/mcts.png' alt="Safety-Critical Multi-Agent MCTS Framework Overview" style="width:90%;">
+        <figcaption style="margin-top: 10px; font-style: Arial;">Fig. 1: Overview of the proposed safety-critical decision making framework based on MCTS.</figcaption>
+      </figure>
+
+    <p>This research presents a safety-critical multi-agent Monte Carlo tree search (MCTS) framework for coordinating mixed traffic at unsignalized intersections. Our framework integrates deterministic and probabilistic predictions to enable cooperative decision-making in complex scenarios, with three key innovations: (1) a comprehensive safety assessment mechanism that systematically handles AV-to-AV, AV-to-HDV, and Vehicle-to-Road interactions; (2) an adaptive HDV behavior awareness approach combining the Intelligent Driver Model with probabilistic distributions; and (3) a multi-objective reward function that balances safety, efficiency, and cooperation.</p>
+    
+    <h2>Case 1: Fully Autonomous Scenario (AV Rate of Penetration = 100%)</h2>
+    <p>In this baseline scenario involving an AV rate of penetration (ROP) of 100%, four AVs approach a four-way intersection simultaneously from different directions. </p>
+    
+    <h3>Case 1.1: Four AVs at Four-Way Intersection</h3>
+    <video width="80%" controls>
+        <source src="/images/8levelk/4avs_case1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h3>Case 1.2: Alternative Intersection Configuration</h3>
+    <p>This scenario demonstrates the framework's adaptability to intersection geometries while maintaining safety and efficiency.</p>
+    
+    <video width="80%" controls>
+        <source src="/images/8levelk/4avs_case2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Case 2: Mixed Traffic Scenario (AV Rate of Penetration = 50%)</h2>
+    <p>To evaluate the robustness of our framework in mixed traffic scenarios, we conducted experiments with a 50% autonomous vehicle penetration rate. The test involves four AVs and four HDVs approaching the intersection from different directions, creating a more complex coordination problem due to the uncertainty in human driver behaviors. </p>
+    
+    <h3>Case 2.1: Four AVs and Four HDVs at Four-Way Intersection</h3>
+    <p>In this mixed traffic scenario, HDVs with diverse driving styles (conservative, moderate, and aggressive) introduce additional complexity. The velocity profiles show larger fluctuations with wider confidence intervals, reflecting the increased uncertainty introduced by human drivers. Nevertheless, our framework successfully adapts to human driving behaviors while ensuring safe and efficient intersection crossing.</p>
+    
+    <video width="80%" controls>
+        <source src="/images/8levelk/8vehicles_case1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h3>Case 2.2: Alternative Mixed Traffic Configuration</h3>
+    <p>This scenario further demonstrates our framework's ability to handle complex mixed traffic interactions under different spatial configurations. </p>
+    
+    <video width="80%" controls>
+        <source src="/images/8levelk/8vehicles_case2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Conclusion</h2>
+    <p>Our safety-critical multi-agent MCTS framework demonstrates superior performance in both fully autonomous and mixed traffic scenarios. The demonstrated balance between safety and efficiency, combined with the framework's ability to handle the inherent uncertainties of human drivers, suggests strong potential for real-world autonomous driving applications at unsignalized intersections.</p>
+</body>
+</html>

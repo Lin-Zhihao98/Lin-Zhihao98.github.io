@@ -1,0 +1,46 @@
+---
+title: "Dynamic Risk-Aware Trajectory Planning for Autonomous Vehicles: A Two-Stage Optimization with Space-Time Graphs"
+excerpt: " This paper introduces a two-stage trajectory planning framework that considers safety, efficiency, and ride comfort simultaneously in dynamic environments.  <br/><img src='/images/tvt_st.png' style='width:50%; display:block; margin-left:auto; margin-right:auto;'>"
+collection: projects
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety-Critical Multi-Agent MCTS for Unsignalized Intersections</title>
+</head>
+<body>
+    
+    <h2>Introduction</h2>
+    
+    <figure style="text-align: center; margin: 0px 0;">
+        <img src='/images/its_cnmpc.png' alt="Safety-Critical Multi-Agent MCTS Framework Overview" style="width:90%;">
+      </figure>
+
+    <p> This paper introduces a two-stage trajectory planning framework that considers safety, efficiency, and ride comfort simultaneously in dynamic environments. The first stage generates spatially feasible trajectories using quintic polynomials and a Dynamic Risk Field (DRF) to assess risks from obstacles. The second stage optimizes these trajectories temporally with Space-Time (ST) graphs and Sequential Quadratic Programming (SQP), ensuring collision avoidance and smooth dynamics. Simulations show the framework produces safe, efficient, and comfortable trajectories in challenging traffic scenarios including highway lane changes and intersections.</p>
+    
+    <h2>Performance Under Different Traffic scenarios</h2>
+    <p>To validate our risk-Aware trajectory planning framework, we tested its adaptability across various scenarios while balancing safety, efficiency, and comfort. </p>
+    
+    <h3>Case 1: Lane changing on two-lane highway</h3>
+    <video width="100%" controls>
+        <source src="/images/tvt_st/demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h3>Case 2: Overtaking on a two-lane, two-way road.</h3>
+    
+    
+    <video width="100%" controls>
+        <source src="/images/tvt_st/demo1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+    
+    <h2>Conclusion</h2>
+    <p>This paper presents a novel two-stage trajectory planning for AVs in dynamic environments. Key contributions include a DRF for unified representation of static and dynamic obstacles, a two-stage planning combining spatial trajectory generation with temporal optimization, an SQP-based efficient trajectory optimization method, and a multi-objective cost function balancing safety, efficiency, and comfort. A receding horizon strategy is also implemented for continuous replanning. Simulation results across three scenarios demonstrate the framework's effectiveness in generating safe, efficient, and comfortable trajectories, highlighting its potential to balance competing objectives and adapt to complex driving environments. Future work will focus on integrating learning-based methods for enhanced obstacle prediction.</p>
+</body>
+</html>
