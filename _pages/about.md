@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Autonomous Systems & Connectivity at the University of Glasgow, supervised by Dr. Jianglin Lan. My research focuses on Simultaneous Localization and Mapping (SLAM), Reinforcement Learning, and Autonomous Driving systems.
+I am a PhD student in Autonomous Systems & Connectivity at the University of Glasgow, supervised by  [Dr. Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/). My research focuses on Simultaneous Localization and Mapping (SLAM), Reinforcement Learning, and Autonomous Driving systems.
 
 I am currently working on developing advanced autonomous navigation solutions that can operate safely in dynamic environments, with a particular emphasis on visual SLAM systems and trajectory planning.
 

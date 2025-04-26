@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "light"
 title                    : "Zhihao Lin / Homepage"
 title_separator          : "-"
 name                     : &name "Zhihao Lin"
@@ -25,7 +25,7 @@ author:
   avatar           : "lzh.jpeg" 
   name             : "Zhihao Lin"
   pronouns         : #"he"  
-  bio              : "Ph.D. Student at University of Glasgow"
+  bio              : "Ph.D. Student"
   location         : "Glasgow"
   employer         : "University of Glasgow"
   uri              : # URL

@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Autonomous Systems & Connectivity, University of Glasgow (UofG), Feb. 2026 (Expected, Supervisor: Dr. Jianglin Lan)
+* Ph.D in Autonomous Systems & Connectivity, University of Glasgow (UofG), Feb. 2026 (Expected, Supervisor: [Dr. Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/))
 * M.S. in Circuits and Systems, Jilin University, 2022
 * B.S. in Electronic Information Engineering, Liaocheng University, 2018
 
