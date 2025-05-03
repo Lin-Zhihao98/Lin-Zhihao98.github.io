@@ -1,6 +1,6 @@
 ---
-title: "MAMCTS"
-excerpt: "This paper proposes a safety-critical multi-agent  Monte Carlo tree search (MCTS) framework that integrates deterministic and probabilistic predictions to enable cooperative decision making in complex intersection scenarios.  <br/><img src='/images/mcts.png'>"
+title: "MCTS-Level-k"
+excerpt: "This paper proposes a scalable multi-vehicle decision-making framework that integrates Level-k recursive reasoning with Monte Carlo Tree Search for efficient coordination at unsignalized intersections. <br/><img src='/images/mcts.png'>"
 collection: projects
 ---
 
@@ -9,30 +9,32 @@ collection: projects
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safety-Critical Multi-Agent MCTS for Unsignalized Intersections</title>
+    <title>MCTS-Level-k: Scalable Multi-Vehicle Decision Making for Unsignalized Intersection Navigation</title>
 </head>
 <body>
-    <h1>Safety-Critical Multi-Agent MCTS for Unsignalized Intersections</h1>
-    <h2>Introduction</h2>
+    <h1>MCTS-Level-k: Scalable Multi-Vehicle Decision Making for Unsignalized Intersection Navigation</h1>
+    <h2>Research Overview</h2>
     
     <figure style="text-align: center; margin: 20px 0;">
-        <img src='/images/mcts.png' alt="Safety-Critical Multi-Agent MCTS Framework Overview" style="width:90%;">
-        <figcaption style="margin-top: 10px; font-style: Arial;">Fig. 1: Overview of the proposed safety-critical decision making framework based on MCTS.</figcaption>
-      </figure>
+        <img src='/images/mcts.png' alt="MCTS-Level-k Framework Overview" style="width:90%;">
+        <figcaption style="margin-top: 10px; font-style: Arial;">Fig. 1: System architecture of the proposed MCTS-Level-k framework for scalable multi-vehicle decision making.</figcaption>
+    </figure>
 
-    <p>This research presents a safety-critical multi-agent Monte Carlo tree search (MCTS) framework for coordinating mixed traffic at unsignalized intersections. Our framework integrates deterministic and probabilistic predictions to enable cooperative decision-making in complex scenarios, with three key innovations: (1) a comprehensive safety assessment mechanism that systematically handles AV-to-AV, AV-to-HDV, and Vehicle-to-Road interactions; (2) an adaptive HDV behavior awareness approach combining the Intelligent Driver Model with probabilistic distributions; and (3) a multi-objective reward function that balances safety, efficiency, and cooperation.</p>
+    <p>This research presents MCTS-Level-k, an innovative decision-making framework that coordinates multiple autonomous vehicles (AVs) by integrating Level-k recursive reasoning with Monte Carlo Tree Search (MCTS). Our framework addresses the significant challenges faced by AVs at unsignalized intersections in mixed traffic environments through four key innovations: (1) A hierarchical integration of Level-k game theory and MCTS that balances strategic reasoning with computational efficiency; (2) A dual-filtering dynamic interaction graph (spatial and strategic) that reduces computational complexity from O(M^N) to O(M^n₀ + M^n₁ + M^n₂); (3) An optimization-based heterogeneous vehicle model capturing diverse behaviors of both AVs and human-driven vehicles (HDVs); and (4) A comprehensive uncertainty handling mechanism with precise collision detection and adaptive safety margins.</p>
     
     <h2>Case 1: Fully Autonomous Scenario (AV Rate of Penetration = 100%)</h2>
-    <p>In this baseline scenario involving an AV rate of penetration (ROP) of 100%, four AVs approach a four-way intersection simultaneously from different directions. </p>
+    <p>Our baseline scenario involves four AVs simultaneously approaching a four-way intersection from different directions, demonstrating our framework's ability to coordinate multiple vehicles in a challenging environment without traffic signals.</p>
     
-    <h3>Case 1.1: Four AVs at Four-Way Intersection</h3>
+    <h3>Case 1.1: Standard Four-Way Intersection</h3>
+    <p>This scenario corresponds to Case 1 in our paper, where four AVs navigate a standard four-way intersection. The results show that our MCTS-Level-k framework achieves reduced trajectory deviations (37.56% improvement), zero PET violations, and up to 60% reduction in computation time compared to conventional methods.</p>
+    
     <video width="80%" controls>
         <source src="/images/8levelk/4avs_case1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     
-    <h3>Case 1.2: Alternative Intersection Configuration</h3>
-    <p>This scenario demonstrates the framework's adaptability to intersection geometries while maintaining safety and efficiency.</p>
+    <h3>Case 1.2: Complex Exit Configuration</h3>
+    <p>This extension of Case 1 tests a more complex scenario where two AVs from different entry points must converge to the same exit, while the other two AVs similarly converge to another shared exit. All vehicles must navigate through the intersection simultaneously, creating a more challenging coordination problem that demonstrates our framework's versatility.</p>
     
     <video width="80%" controls>
         <source src="/images/8levelk/4avs_case2.mp4" type="video/mp4">
@@ -40,18 +42,18 @@ collection: projects
     </video>
 
     <h2>Case 2: Mixed Traffic Scenario (AV Rate of Penetration = 50%)</h2>
-    <p>To evaluate the robustness of our framework in mixed traffic scenarios, we conducted experiments with a 50% autonomous vehicle penetration rate. The test involves four AVs and four HDVs approaching the intersection from different directions, creating a more complex coordination problem due to the uncertainty in human driver behaviors. </p>
+    <p>To evaluate our framework's robustness in mixed traffic, we conducted experiments with a 50% autonomous vehicle penetration rate, where both AVs and HDVs share the intersection space.</p>
     
-    <h3>Case 2.1: Four AVs and Four HDVs at Four-Way Intersection</h3>
-    <p>In this mixed traffic scenario, HDVs with diverse driving styles (conservative, moderate, and aggressive) introduce additional complexity. The velocity profiles show larger fluctuations with wider confidence intervals, reflecting the increased uncertainty introduced by human drivers. Nevertheless, our framework successfully adapts to human driving behaviors while ensuring safe and efficient intersection crossing.</p>
+    <h3>Case 2.1: Standard Mixed Traffic Intersection</h3>
+    <p>This scenario corresponds to Case 2 in our paper, featuring four AVs and four HDVs approaching a four-way intersection from different directions. Our framework successfully adapts to human driving behaviors with diverse driving styles while ensuring safe and efficient intersection crossing. Comparative analysis shows our method reduces trajectory deviations by 62.43% over conventional approaches in this challenging mixed traffic environment.</p>
     
     <video width="80%" controls>
         <source src="/images/8levelk/8vehicles_case1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
-    <h3>Case 2.2: Alternative Mixed Traffic Configuration</h3>
-    <p>This scenario further demonstrates our framework's ability to handle complex mixed traffic interactions under different spatial configurations. </p>
+    <h3>Case 2.2: Complex Mixed Traffic Configuration</h3>
+    <p>This extended scenario features the same complex exit configuration as Case 1.2, but with four additional HDVs interacting with the four AVs. Two AVs from different entry points converge to one shared exit while the other two AVs converge to another shared exit, all while navigating among unpredictable human-driven vehicles. This case demonstrates our framework's ability to handle complex interactions in a mixed traffic environment with challenging trajectory conflicts.</p>
     
     <video width="80%" controls>
         <source src="/images/8levelk/8vehicles_case2.mp4" type="video/mp4">
@@ -59,6 +61,6 @@ collection: projects
     </video>
     
     <h2>Conclusion</h2>
-    <p>Our safety-critical multi-agent MCTS framework demonstrates superior performance in both fully autonomous and mixed traffic scenarios. The demonstrated balance between safety and efficiency, combined with the framework's ability to handle the inherent uncertainties of human drivers, suggests strong potential for real-world autonomous driving applications at unsignalized intersections.</p>
+    <p>Our MCTS-Level-k framework demonstrates superior performance in both fully autonomous and mixed traffic scenarios. Extensive simulations show that our approach reduces computational time by up to 60% while ensuring safety and robust decision-making. In homogeneous traffic, we achieve a 37.56% reduction in trajectory deviations with zero PET violations; in mixed traffic, we demonstrate a 62.43% improvement in trajectory tracking. These results highlight our framework's practical potential for real-world implementation at unsignalized intersections.</p>
 </body>
 </html>
