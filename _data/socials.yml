@@ -1,0 +1,8 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/CV_Zhihao_Lin_detail.pdf # path to your CV PDF file
+email: kk43327897@gmail.com # your email address
+github_username: Lin-Zhihao98 # your GitHub username
+scholar_userid: zyQOwasAAAAJ # your Google Scholar ID
+orcid_id: 0009-0005-8152-3886 # your ORCID ID

@@ -1,0 +1,75 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ===================================================================
+   Custom overrides (local — added on top of the al-folio core theme)
+   =================================================================== */
+
+/* Make the About-page profile photo smaller (theme default is 30%). */
+@media (min-width: 576px) {
+  .profile {
+    width: 22%;
+  }
+}
+
+/* Section headings on the publications page (Selected / All). */
+.bibliography-section-heading {
+  border-bottom: 2px solid var(--global-divider-color);
+  padding-bottom: 0.3rem;
+}
+
+/* Compact contact block under the profile photo (About page). */
+.profile .more-info {
+  font-family: inherit; /* drop the monospace look so text wraps less */
+  font-size: 0.9rem;
+  line-height: 1.35;
+  text-align: center;
+  margin-top: 0.5rem;
+
+  p {
+    margin: 0;
+    display: block;
+  }
+}
+
+/* Social icons placed right under the profile photo (About page). */
+.profile .profile-social.contact-icons {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 0.35rem;
+
+  a {
+    margin: 0 0.3rem;
+  }
+}

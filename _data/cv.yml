@@ -1,0 +1,150 @@
+cv:
+  name: Zhihao Lin
+  label: Ph.D. in Autonomous Systems & Connectivity
+  email: kk43327897@gmail.com
+  location: Glasgow, United Kingdom
+  image: ""
+  summary: >
+    Ph.D. researcher in Autonomous Systems & Connectivity at the University of Glasgow.
+    Research on structure-aware reinforcement learning, multi-agent decision making, and
+    perception-integrated autonomy. On Google Scholar: h-index of 11 and over 500 citations (as of May 2026).
+
+  social_networks:
+    - network: GitHub
+      username: Lin-Zhihao98
+
+  sections:
+    Education:
+      - institution: University of Glasgow
+        location: Glasgow, UK
+        url: https://www.gla.ac.uk/
+        area: Autonomous Systems & Connectivity
+        studyType: Ph.D.
+        start_date: 2023-02
+        end_date: 2026-04
+        highlights:
+          - "Supervisor: Dr. Jianglin Lan"
+          - "Research interests: Structure-Aware RL, Multi-Agent Decision Making, and Perception-Integrated Autonomy"
+
+      - institution: Université Polytechnique Hauts-de-France (LAMIH UMR CNRS 8201)
+        location: Valenciennes, France
+        area: Control Department — Visiting Research Student
+        studyType: Visiting Research
+        start_date: 2025-10
+        end_date: 2025-11
+        highlights:
+          - "Host supervisor: Dr. Anh-Tu Nguyen"
+
+      - institution: Jilin University
+        location: Changchun, China
+        area: Circuits and Systems
+        studyType: M.S.
+        start_date: 2019-09
+        end_date: 2022-07
+
+      - institution: Liaocheng University
+        location: Liaocheng, China
+        area: Electronic Information Engineering
+        studyType: B.S.
+        start_date: 2014-09
+        end_date: 2018-07
+
+    Experience:
+      - company: Structure-Aware Learning for Policy, Reasoning, and Decision
+        position: Doctoral Researcher, University of Glasgow
+        location: Glasgow, UK
+        start_date: 2025-07
+        highlights:
+          - Developed advantage-guided and preference-based methods for adaptive exploration in RL.
+          - Designed stability-aware objectives and proxy supervision signals to improve structural generalization.
+          - Formulated geometry-aligned policy learning principles beyond Gaussian action distributions.
+          - Built unified perspectives linking action manifolds, Bellman stability, and structural RL supervision.
+
+      - company: Multi-Agent Safety Planning in Dynamic Scenarios
+        position: Doctoral Researcher, UofG & LAMIH
+        location: Glasgow, UK & France
+        start_date: 2024-08
+        end_date: 2025-07
+        summary: "Supervisors: Dr. J. Lan, Prof. D. Flynn, Dr. Christos Anagnostopoulos, Dr. A. Nguyen"
+        highlights:
+          - Developed MCTS-based coordination algorithms for interactive driving at unsignalized intersections.
+          - Proposed a scalable framework for mixed traffic with centralized and decentralized policies.
+          - Developed safety-critical pruning and interaction-graph filtering to reduce planning complexity.
+          - Designed contingency-aware trajectory optimization for safe planning under uncertainty.
+
+      - company: Interactive Decision Making for Autonomy
+        position: Doctoral Researcher, University of Glasgow
+        location: Glasgow, UK
+        start_date: 2023-11
+        end_date: 2024-08
+        summary: "Supervisors: Dr. Jianglin Lan and Prof. Dezong Zhao"
+        highlights:
+          - Developed KAN-based RL systems for driving tasks like roundabouts and ramp merging.
+          - Proposed multi-agent actor-critic models with LSTM intention modeling for road interactions.
+          - Designed reward shaping and exploration for efficient policy learning in racing scenarios.
+          - Integrated uncertainty-aware game-theoretic planning modules for safe interactive autonomy.
+
+      - company: Robust and Dynamic-Aware SLAM for Autonomy
+        position: Doctoral Researcher, UofG & SJTU
+        location: Glasgow, UK
+        start_date: 2023-02
+        end_date: 2023-11
+        summary: "Supervisors: Dr. Jianglin Lan and Dr. Hanyang Zhuang"
+        highlights:
+          - Developed visual SLAM for dynamic environments using point-line features and semantic cues.
+          - Built a multi-modal mapping pipeline that filters dynamic objects via detection and epipolar constraints.
+          - Integrated SLAM with CLF-CBF and TEB planning for safe navigation in unstructured scenes.
+          - Optimized trajectories with stability and dynamic-awareness for long-term autonomous deployment.
+
+    Honors and Awards:
+      - title: Doctoral Scholarship
+        date: 2023
+        awarder: China Scholarship Council (CSC)
+        summary: "2023–2026"
+
+      - title: Research Mobility Fund
+        date: 2025-04
+        awarder: University of Glasgow
+        summary: "£1,800 for international research collaboration."
+
+      - title: Editor's Choice Award
+        date: 2025-04
+        awarder: Sensors Journal
+        summary: "For \"Enhanced Visual SLAM for Collision-Free Driving with Lightweight Autonomous Cars\"."
+
+      - title: Academic Scholarship
+        date: 2021
+        awarder: Jilin University
+        summary: "2020–2021"
+
+    Open Source Projects:
+      - name: "GAC — Geometric Action Control"
+        url: https://github.com/Lin-Zhihao98/GAC
+        summary: "Official implementation of *Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning* (ICLR 2026)."
+      - name: "AMS — Action Manifold Smoothing"
+        url: https://github.com/Lin-Zhihao98/AMS
+        summary: "Official implementation of *Action Manifold Smoothing: A Lipschitz Pathway Perspective on High-Dimensional Reinforcement Learning* (ICML 2026)."
+
+    Invited Talks and Presentations:
+      - bullet: '**Conference Presentation** — "Action Manifold Smoothing," ICML 2026, Seoul, South Korea *(July 2026)*'
+      - bullet: '**Conference Presentation** — "Reconstructed Level-k MCTS," AAMAS 2026 *(May 2026)*'
+      - bullet: '**Conference Presentation** — "Geometric Action Control," ICLR 2026 *(Apr 2026)*'
+      - bullet: '**Invited Talk** — "Geometric Action Control," KTH Royal Institute of Technology, Stockholm *(Jan 2026)*'
+      - bullet: '**Invited Research Visit & Presentation** — Université Polytechnique Hauts-de-France (LAMIH UMR CNRS 8201), France *(Nov 2025)*'
+      - bullet: '**Conference Presentation** — "Distributed MCTS for Safe Coordination," IEEE ICDCS 2025 *(Jul 2025)*'
+
+    Skills:
+      - name: Programming Languages
+        keywords: "Python, C/C++, MATLAB, R, LaTeX"
+      - name: Machine Learning Tools
+        keywords: "PyTorch, Scikit-learn, Pandas, NumPy"
+
+    Academic Service:
+      - bullet: '**Reviewer**, IEEE Transactions — T-RO, T-ITS, T-IV, T-ASE, T-TE, T-CSVT, T-IM'
+      - bullet: '**Reviewer**, Journals — Transp. Res. Part C (TR-C), Journal of Field Robotics (JFR), Pattern Recognition, Neural Networks, Neurocomputing, ISA Transactions'
+
+    Languages:
+      - name: Chinese
+        summary: "Native speaker"
+      - name: English
+        summary: "Fluent"
