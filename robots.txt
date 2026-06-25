@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://lin-zhihao98.github.io/sitemap.xml
