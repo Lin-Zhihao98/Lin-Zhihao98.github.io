@@ -35,7 +35,7 @@ This question grew out of my early work on autonomous driving, where I kept runn
 
 My Ph.D. work approaches it from three angles:
 
-- **Geometric policy optimisation** (GAC, ICLR 2026): treating bounded action spaces as a geometric constraint rather than an afterthought, using Beta policies with Wasserstein gradient flow on the action simplex.
+- **Geometric policy optimisation** (GAC, ICLR 2026): treating bounded action spaces as a geometric constraint rather than an afterthought — replacing Gaussian policies and their ad-hoc squashing with an efficient spherical formulation that decomposes each action into a direction vector and a learnable concentration parameter.
 - **Action Manifold Smoothing** (AMS, ICML 2026): stabilising high-dimensional continuous control by replacing point-wise temporal-difference targets with orthogonally-sampled neighbourhood averages, taming the multiplicative *Lipschitz-pathway* error amplification that makes algorithms like TD3 and SAC collapse.
 - **World-model-guided representation learning** (NeurIPS 2026, under review): using a world model not as a simulator but as a structured supervision tool, shaping an encoder whose representations are simultaneously predictive and value-aware.
 
