@@ -83,11 +83,77 @@ html[data-theme="dark"] body::before {
   content: "";
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: -2;
   pointer-events: none;
   background:
     linear-gradient(rgba(6, 8, 16, 0.5), rgba(6, 8, 16, 0.5)),
     url("/assets/img/cosmic-bg.jpg") center / cover no-repeat;
+}
+
+/* ===== Shooting stars (dark mode), behind the content, above the bg ===== */
+#meteor-layer {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+.meteor {
+  position: absolute;
+  height: 5px;
+  border-radius: 999px;
+  transform-origin: right center;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(170, 210, 255, 0.45) 60%, #ffffff 100%);
+  filter: drop-shadow(0 0 6px rgba(170, 210, 255, 0.7));
+  opacity: 0;
+  animation-name: meteor-streak;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes meteor-streak {
+  0% {
+    opacity: 0;
+    transform: rotate(var(--ang)) translateX(0);
+  }
+  8% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(var(--ang)) translateX(var(--dist));
+  }
+}
+
+/* ===== Twinkling glow stars at a few fixed spots (dark mode) ===== */
+#twinkle-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+html:not([data-theme="dark"]) #twinkle-layer {
+  display: none;
+}
+.twinkle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 0 8px 2px rgba(180, 215, 255, 0.85);
+  animation: twinkle-pulse var(--tw-dur, 2.6s) ease-in-out infinite;
+  animation-delay: var(--tw-delay, 0s);
+}
+@keyframes twinkle-pulse {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.7);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
 }
 
 /* glass-like translucent cards so the stars show through (dark mode) */
