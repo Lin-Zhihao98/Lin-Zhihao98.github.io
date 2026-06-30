@@ -6,7 +6,10 @@ layout: default
   // to localStorage) always wins on later visits.
   (function () {
     try {
-      if (!localStorage.getItem("theme")) {
+      var t = localStorage.getItem("theme");
+      // al-folio pre-seeds "system"; treat both unset and "system" as "no
+      // explicit choice yet" and default such visitors to the cosmic dark theme.
+      if (!t || t === "system") {
         localStorage.setItem("theme", "dark");
         if (typeof setThemeSetting === "function") setThemeSetting("dark");
         else document.documentElement.setAttribute("data-theme", "dark");
