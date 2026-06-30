@@ -440,9 +440,11 @@ imagemagick:
   input_formats:
     - ".jpg"
     - ".jpeg"
-    - ".png"
     - ".tiff"
-    - ".gif"
+    # .png and .gif are intentionally NOT processed: the production (GitHub
+    # Action) imagemagick flattens transparent PNG -> WebP (white background)
+    # and can break animated GIFs. Serving them as-is preserves transparency
+    # and animation. JPGs still get WebP optimization.
   output_formats:
     webp: "-auto-orient -quality 85"
 

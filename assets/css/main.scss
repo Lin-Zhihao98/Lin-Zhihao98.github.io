@@ -169,3 +169,43 @@ html[data-theme="dark"] .about-glass {
     animation: none;
   }
 }
+
+/* pixel spaceship drifting lazily in the bottom-right corner */
+@keyframes ship-float {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(-9px, -11px) rotate(-3deg);
+  }
+  50% {
+    transform: translate(5px, -18px) rotate(2deg);
+  }
+  75% {
+    transform: translate(10px, -8px) rotate(4deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+.spaceship-mascot {
+  position: fixed;
+  right: 14.5rem;
+  bottom: 2.5rem;
+  width: 130px;
+  height: auto;
+  image-rendering: pixelated;
+  z-index: 3;
+  pointer-events: none;
+  animation: ship-float 8s ease-in-out infinite;
+}
+@media (max-width: 600px) {
+  .spaceship-mascot {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .spaceship-mascot {
+    animation: none;
+  }
+}
