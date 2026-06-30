@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper *Scalable and Safe Multi-Agent Coordination with Reconstructed Level-k Monte Carlo Tree Search* has been accepted to **AAMAS 2026** (CORE A*). 🎉
+My first-authored paper *Scalable and Safe Multi-Agent Coordination with Reconstructed Level-k Monte Carlo Tree Search* has been accepted to **AAMAS 2026** (CORE A*). 🎉

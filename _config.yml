@@ -11,8 +11,10 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal homepage of Zhihao Lin — Ph.D. in Autonomous Systems & Connectivity at the University of Glasgow. Research on structure-aware reinforcement learning, multi-agent decision making, and safety-critical autonomy.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  &middot; <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> on GitHub Pages
+  &middot; Bg: JWST deep field (ESA/Webb)
+  &middot; Black hole: <a href="https://github.com/s0xDk/ghostty-blackhole" target="_blank">ghostty-blackhole</a> (@s13k_)
+  &middot; Astronaut: <a href="https://godofnjuk.itch.io" target="_blank">Godofnjuk</a>
 keywords: Zhihao Lin, reinforcement learning, autonomous driving, multi-agent, motion planning, SLAM, University of Glasgow # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

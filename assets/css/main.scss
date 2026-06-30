@@ -73,3 +73,99 @@
     margin: 0 0.3rem;
   }
 }
+
+/* ===================================================================
+   Cosmic deep-field background — DARK MODE ONLY.
+   Image: JWST deep field (ESA/Webb, NASA & CSA). Darken via the scrim
+   alpha below; make the cards more/less see-through via their alpha.
+   =================================================================== */
+html[data-theme="dark"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(6, 8, 16, 0.5), rgba(6, 8, 16, 0.5)),
+    url("/assets/img/cosmic-bg.jpg") center / cover no-repeat;
+}
+
+/* glass-like translucent cards so the stars show through (dark mode) */
+html[data-theme="dark"] .card {
+  background-color: rgba(20, 22, 30, 0.6) !important;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+/* drop the boxy drop-shadow on the transparent profile cutout */
+.profile img {
+  box-shadow: none !important;
+}
+
+/* frosted-glass panel behind the homepage bio text (dark mode), like the cards */
+html[data-theme="dark"] .about-glass {
+  background-color: rgba(18, 20, 28, 0.62);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 0.5rem;
+}
+
+/* keep the photo + clickable social icons above the frosted text panel */
+.profile {
+  position: relative;
+  z-index: 1;
+}
+
+/* publication year headings: high-contrast text color (black in light theme,
+   white in dark theme) instead of the faint divider grey */
+.publications h2.bibliography {
+  color: var(--global-text-color);
+}
+
+/* pixel astronaut mascot in the bottom-left corner */
+/* the little guy paces near the left: walks right toward the text, turns
+   around (mirrors to face left), walks back, and repeats. --pace-x is the
+   turn-around distance, adapting so he stops about at the text edge. */
+@keyframes astro-pace {
+  0%,
+  3% {
+    transform: translateX(0) scaleX(1);
+  }
+  47% {
+    transform: translateX(var(--pace-x)) scaleX(1);
+  }
+  50%,
+  53% {
+    transform: translateX(var(--pace-x)) scaleX(-1);
+  }
+  97% {
+    transform: translateX(0) scaleX(-1);
+  }
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+}
+.astronaut-mascot {
+  --pace-x: max(140px, calc(50vw - 650px));
+  position: fixed;
+  left: 0.0rem;
+  bottom: 2.5rem;
+  width: 198px;
+  height: auto;
+  image-rendering: pixelated;
+  z-index: 3;
+  pointer-events: none;
+  animation: astro-pace 20s linear infinite;
+}
+@media (max-width: 600px) {
+  .astronaut-mascot {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .astronaut-mascot {
+    animation: none;
+  }
+}

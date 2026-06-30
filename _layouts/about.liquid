@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
+<script>
+  // First-time visitors land in the cosmic dark theme; their own toggle (saved
+  // to localStorage) always wins on later visits.
+  (function () {
+    try {
+      if (!localStorage.getItem("theme")) {
+        localStorage.setItem("theme", "dark");
+        if (typeof setThemeSetting === "function") setThemeSetting("dark");
+        else document.documentElement.setAttribute("data-theme", "dark");
+      }
+    } catch (e) {}
+  })();
+</script>
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -41,14 +54,14 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix about-glass">{{ content }}</div>
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
-      {% include news.liquid limit=true %}
+      <div class="about-glass">{% include news.liquid limit=true %}</div>
     {% endif %}
 
     <!-- Latest posts -->
@@ -64,7 +77,7 @@ layout: default
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="about-glass">{% include selected_papers.liquid %}</div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
@@ -75,4 +88,10 @@ layout: default
       {% endif %}
     {% endif %}
   </article>
+
+  <!-- Corner black hole (homepage only). Inspired by ghostty-blackhole / @s13k_ (MIT). -->
+  <script src="{{ '/assets/js/blackhole-corner.js' | relative_url }}"></script>
+
+  <!-- Pixel astronaut mascot (homepage only). By Njuk.Wedang / Godofnjuk. -->
+  <img class="astronaut-mascot" src="{{ '/assets/img/astro_walkjump.gif' | relative_url }}" alt="" aria-hidden="true">
 </div>

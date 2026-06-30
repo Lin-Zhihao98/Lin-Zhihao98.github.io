@@ -14,11 +14,11 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <h2 class="bibliography-section-heading mt-4 mb-3">Selected Publications</h2>
-<div class="publications">
+<div class="publications about-glass">
 {% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 
 <h2 class="bibliography-section-heading mt-5 mb-3">All Publications</h2>
-<div class="publications">
+<div class="publications about-glass">
 {% bibliography %}
 </div>

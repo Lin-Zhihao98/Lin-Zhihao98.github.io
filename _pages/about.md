@@ -6,8 +6,8 @@ subtitle: Ph.D. in Autonomous Systems & Connectivity, <a href='https://www.gla.a
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: false # transparent cutout — no circle crop, floats on the background
   more_info: >
     <p><strong>Zhihao Lin, Ph.D.</strong></p>
     <p>University of Glasgow</p>
@@ -39,6 +39,6 @@ My Ph.D. work approaches it from three angles:
 - **Action Manifold Smoothing** (AMS, ICML 2026): stabilising high-dimensional continuous control by replacing point-wise temporal-difference targets with orthogonally-sampled neighbourhood averages, taming the multiplicative *Lipschitz-pathway* error amplification that makes algorithms like TD3 and SAC collapse.
 - **World-model-guided representation learning** (NeurIPS 2026, under review): using a world model not as a simulator but as a structured supervision tool, shaping an encoder whose representations are simultaneously predictive and value-aware.
 
-On the side, I have a deep personal interest in **theoretical physics**, particularly the thermodynamic and information-theoretic foundations of gravity and cosmology.
+On the side, I have a deep personal interest in **theoretical physics**, particularly the information-theoretic foundations of gravity and cosmology.
 
 I am always happy to chat about RL, world models, embodied intelligence, or the physics of spacetime. Feel free to [reach out](mailto:kk43327897@gmail.com).
