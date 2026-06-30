@@ -1,0 +1,6 @@
+/*!
+ * Occasional shooting stars across the cosmic background (dark mode only).
+ * Spawns a faint streak every few seconds; each animates across the sky and
+ * removes itself. Sits behind the page content. Honors reduced-motion.
+ */
+!function(){"use strict";function e(){return"dark"===document.documentElement.getAttribute("data-theme")}function t(e,t){return e+Math.random()*(t-e)}function n(){if(e()&&!document.hidden){var n=document.createElement("div");n.className="meteor";var i=t(240,460),o=t(1.3,3.2),r=t(140,165),a=t(.5*window.innerWidth,1.05*window.innerWidth),u=t(-60,.4*window.innerHeight),m=t(.9*window.innerWidth,1.8*window.innerWidth);n.style.width=i+"px",n.style.left=a+"px",n.style.top=u+"px",n.style.setProperty("--ang",r+"deg"),n.style.setProperty("--dist",m+"px"),n.style.animationDuration=o+"s",d.appendChild(n),setTimeout(function(){n.remove()},1e3*o+150)}}function i(){n(),setTimeout(i,t(700,1100))}if(!window.matchMedia||!window.matchMedia("(prefers-reduced-motion: reduce)").matches){var d=document.createElement("div");d.id="meteor-layer",d.setAttribute("aria-hidden","true"),document.body.appendChild(d),setTimeout(i,1500)}}();
