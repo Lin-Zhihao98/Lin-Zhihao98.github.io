@@ -100,15 +100,18 @@ layout: default
   <!-- Occasional shooting stars (homepage only, dark mode). -->
   <script src="{{ '/assets/js/meteors.js' | relative_url }}"></script>
 
-  <!-- Twinkling glow stars at a few fixed spots (homepage only, dark mode). -->
+  <!-- Twinkling glow stars LOCKED to points of the deep-field image (homepage,
+       dark mode). data-ix / data-iy = position as a % (0–100) of cosmic-bg.jpg;
+       star-lock.js keeps them on the same galaxies on every screen. -->
   <div id="twinkle-layer" aria-hidden="true">
-    <span class="twinkle" style="left: 97vw; top: 58.5vh; --tw-dur: 2.6s; --tw-delay: 0.8s;"></span>
-    <span class="twinkle" style="left: 79.4vw; top: 55.8vh; --tw-dur: 3.2s; --tw-delay: 1.2s;"></span>
-    <span class="twinkle" style="left: 77vw; top: 92vh; --tw-dur: 3.0s; --tw-delay: 0.6s;"></span>
-    <span class="twinkle" style="left: 42.5vw; top: 6.5vh; --tw-dur: 1.6s; --tw-delay: 0.8s;"></span>
-    <span class="twinkle" style="left: 9.7vw; top: 42.5vh; --tw-dur: 2.2s; --tw-delay: 1.2s;"></span>
-    <span class="twinkle" style="left: 17vw; top: 25.3vh; --tw-dur: 2.8s; --tw-delay: 1.4s;"></span>
+    <span class="twinkle" data-ix="97.0" data-iy="54" style="--tw-dur: 2.6s; --tw-delay: 0.8s;"></span>
+    <span class="twinkle" data-ix="79.4" data-iy="53" style="--tw-dur: 3.2s; --tw-delay: 1.2s;"></span>
+    <span class="twinkle" data-ix="77.0" data-iy="71.3" style="--tw-dur: 3.0s; --tw-delay: 0.6s;"></span>
+    <span class="twinkle" data-ix="42.5" data-iy="28" style="--tw-dur: 2.2s; --tw-delay: 1.2s;"></span>
+    <span class="twinkle" data-ix="9.7" data-iy="46" style="--tw-dur: 2.2s; --tw-delay: 1.2s;"></span>
+    <span class="twinkle" data-ix="17.0" data-iy="37.5" style="--tw-dur: 2.8s; --tw-delay: 1.4s;"></span>
   </div>
+  <script src="{{ '/assets/js/star-lock.js' | relative_url }}"></script>
 
   <!-- Pixel astronaut mascot (homepage only). By Njuk.Wedang / Godofnjuk. -->
   <img class="astronaut-mascot" src="{{ '/assets/img/astro_walkjump.gif' | relative_url }}" alt="" aria-hidden="true">
