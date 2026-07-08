@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-08'
 papers:
   zyQOwasAAAAJ:-f6ydRqryjwC:
     citations: 4
@@ -10,7 +10,7 @@ papers:
     title: 'Slam2: Simultaneous localization and multimode mapping for indoor dynamic environments'
     year: '2025'
   zyQOwasAAAAJ:9yKSN-GCB0IC:
-    citations: 104
+    citations: 105
     title: 'DPL-SLAM: enhancing dynamic point-line SLAM through dense semantic methods'
     year: '2024'
   zyQOwasAAAAJ:IjCSPb-OGe4C:
@@ -38,13 +38,17 @@ papers:
     title: Kan-lstm enhanced multi-agent advantage actor-critic reinforcement learning for autonomous ramp merging
     year: '2025'
   zyQOwasAAAAJ:YsMSGLbcyi4C:
-    citations: 34
+    citations: 37
     title: 'Bio-inspired hybrid path planning for efficient and smooth robotic navigation: F. Yuan et al.'
     year: '2025'
   zyQOwasAAAAJ:_FxGoFyzp5QC:
     citations: 34
     title: A Conflicts-Free, Speed-Lossless KAN-Based Reinforcement Learning Decision System for Interactive Driving in Roundabouts
     year: '2025'
+  zyQOwasAAAAJ:_Qo2XoVZTnwC:
+    citations: 0
+    title: 'Dual-Mode SPL-SLAM: A Robust Semantic Point-Line SLAM System with Monocular Neural Depth and Sensor Fusion for Intelligent Transportation'
+    year: '2026'
   zyQOwasAAAAJ:d1gkVwhDpl0C:
     citations: 81
     title: Enhanced visual slam for collision-free driving with lightweight autonomous cars
