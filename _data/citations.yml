@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-24'
 papers:
   zyQOwasAAAAJ:-f6ydRqryjwC:
     citations: 4
     title: Hierarchical multi-agent mcts for safety-critical coordination in mixed-autonomy roundabouts
     year: '2026'
   zyQOwasAAAAJ:2osOgNQ5qMEC:
-    citations: 55
+    citations: 56
     title: 'Slam2: Simultaneous localization and multimode mapping for indoor dynamic environments'
     year: '2025'
   zyQOwasAAAAJ:9yKSN-GCB0IC:
@@ -18,16 +18,20 @@ papers:
     title: 'Evaluating scenario-based decision-making for interactive autonomous driving using rational criteria: A survey'
     year: '2025'
   zyQOwasAAAAJ:L8Ckcad2t8MC:
-    citations: 5
+    citations: 7
     title: Consumer-electronics-oriented safe interaction-aware motion planning for ramp driving with perception uncertainty quantification
     year: '2026'
   zyQOwasAAAAJ:LkGwnXOMwfcC:
-    citations: 48
+    citations: 49
     title: Safety-critical multi-agent mcts for mixed traffic coordination at unsignalized intersections
     year: '2025'
   zyQOwasAAAAJ:R3hNpaxXUhUC:
     citations: 0
     title: 'Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning'
+    year: '2026'
+  zyQOwasAAAAJ:RHpTSmoSYBkC:
+    citations: 0
+    title: 'Collaborative intelligence in cyber-physical-social systems: an adaptive evolutionary framework for safe autonomous vehicle interactions'
     year: '2026'
   zyQOwasAAAAJ:ULOm3_A8WrAC:
     citations: 49
@@ -38,23 +42,23 @@ papers:
     title: Kan-lstm enhanced multi-agent advantage actor-critic reinforcement learning for autonomous ramp merging
     year: '2025'
   zyQOwasAAAAJ:YsMSGLbcyi4C:
-    citations: 37
+    citations: 36
     title: 'Bio-inspired hybrid path planning for efficient and smooth robotic navigation: F. Yuan et al.'
     year: '2025'
   zyQOwasAAAAJ:_FxGoFyzp5QC:
-    citations: 34
+    citations: 35
     title: A Conflicts-Free, Speed-Lossless KAN-Based Reinforcement Learning Decision System for Interactive Driving in Roundabouts
     year: '2025'
   zyQOwasAAAAJ:_Qo2XoVZTnwC:
     citations: 0
-    title: 'Dual-Mode SPL-SLAM: A Robust Semantic Point-Line SLAM System with Monocular Neural Depth and Sensor Fusion for Intelligent Transportation'
+    title: 'Dual-Mode SPL-SLAM: A Robust Semantic Point-Line SLAM System With Monocular Neural Depth and Sensor Fusion for Intelligent Transportation'
     year: '2026'
   zyQOwasAAAAJ:d1gkVwhDpl0C:
-    citations: 81
+    citations: 82
     title: Enhanced visual slam for collision-free driving with lightweight autonomous cars
     year: '2024'
   zyQOwasAAAAJ:dhFuZR0502QC:
-    citations: 20
+    citations: 21
     title: Adaptive field effect planner for safe interactive autonomous driving on curved roads
     year: '2025'
   zyQOwasAAAAJ:e5wmG9Sq2KIC:
@@ -62,11 +66,11 @@ papers:
     title: Geometry-Aware Adaptation of Vision Foundation Models for 3D Affordance Perception
     year: '2026'
   zyQOwasAAAAJ:eQOLeE2rZwMC:
-    citations: 5
+    citations: 6
     title: Balanced exploration and attention-inspired decision making for autonomous driving
     year: '2026'
   zyQOwasAAAAJ:hC7cP41nSMkC:
-    citations: 1
+    citations: 4
     title: A two-stage spatiotemporal trajectory optimization framework for autonomous lane changing with dynamic risk fields
     year: '2026'
   zyQOwasAAAAJ:kNdYIx-mwKoC:
@@ -86,6 +90,6 @@ papers:
     title: Efficient and balanced exploration-driven decision making for autonomous racing using local information
     year: '2024'
   zyQOwasAAAAJ:ufrVoPGSRksC:
-    citations: 16
+    citations: 18
     title: Contingency-aware spatiotemporal optimization for safe autonomous vehicle trajectory planning
     year: '2025'
