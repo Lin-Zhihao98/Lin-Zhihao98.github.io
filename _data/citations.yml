@@ -1,17 +1,21 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-05'
 papers:
   zyQOwasAAAAJ:-f6ydRqryjwC:
     citations: 4
     title: Hierarchical multi-agent mcts for safety-critical coordination in mixed-autonomy roundabouts
     year: '2026'
   zyQOwasAAAAJ:2osOgNQ5qMEC:
-    citations: 56
+    citations: 54
     title: 'Slam2: Simultaneous localization and multimode mapping for indoor dynamic environments'
     year: '2025'
+  zyQOwasAAAAJ:4JMBOYKVnBMC:
+    citations: 0
+    title: 'Action Manifold Smoothing: A Lipschitz Pathway Perspective on High-Dimensional Reinforcement Learning'
+    year: '2026'
   zyQOwasAAAAJ:9yKSN-GCB0IC:
-    citations: 105
-    title: 'DPL-SLAM: enhancing dynamic point-line SLAM through dense semantic methods'
+    citations: 103
+    title: 'DPL-SLAM: Enhancing dynamic point-line SLAM through dense semantic methods'
     year: '2024'
   zyQOwasAAAAJ:IjCSPb-OGe4C:
     citations: 87
@@ -26,7 +30,7 @@ papers:
     title: Safety-critical multi-agent mcts for mixed traffic coordination at unsignalized intersections
     year: '2025'
   zyQOwasAAAAJ:R3hNpaxXUhUC:
-    citations: 0
+    citations: 2
     title: 'Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning'
     year: '2026'
   zyQOwasAAAAJ:RHpTSmoSYBkC:
@@ -34,7 +38,7 @@ papers:
     title: 'Collaborative intelligence in cyber-physical-social systems: an adaptive evolutionary framework for safe autonomous vehicle interactions'
     year: '2026'
   zyQOwasAAAAJ:ULOm3_A8WrAC:
-    citations: 49
+    citations: 50
     title: 'Uncertainty-Aware Roundabout Navigation: A Switched Decision Framework Integrating Stackelberg Games and Dynamic Potential Fields'
     year: '2025'
   zyQOwasAAAAJ:WF5omc3nYNoC:
@@ -42,11 +46,11 @@ papers:
     title: Kan-lstm enhanced multi-agent advantage actor-critic reinforcement learning for autonomous ramp merging
     year: '2025'
   zyQOwasAAAAJ:YsMSGLbcyi4C:
-    citations: 36
+    citations: 37
     title: 'Bio-inspired hybrid path planning for efficient and smooth robotic navigation: F. Yuan et al.'
     year: '2025'
   zyQOwasAAAAJ:_FxGoFyzp5QC:
-    citations: 35
+    citations: 36
     title: A Conflicts-Free, Speed-Lossless KAN-Based Reinforcement Learning Decision System for Interactive Driving in Roundabouts
     year: '2025'
   zyQOwasAAAAJ:_Qo2XoVZTnwC:
@@ -58,7 +62,7 @@ papers:
     title: Enhanced visual slam for collision-free driving with lightweight autonomous cars
     year: '2024'
   zyQOwasAAAAJ:dhFuZR0502QC:
-    citations: 21
+    citations: 20
     title: Adaptive field effect planner for safe interactive autonomous driving on curved roads
     year: '2025'
   zyQOwasAAAAJ:e5wmG9Sq2KIC:
@@ -66,7 +70,7 @@ papers:
     title: Geometry-Aware Adaptation of Vision Foundation Models for 3D Affordance Perception
     year: '2026'
   zyQOwasAAAAJ:eQOLeE2rZwMC:
-    citations: 6
+    citations: 7
     title: Balanced exploration and attention-inspired decision making for autonomous driving
     year: '2026'
   zyQOwasAAAAJ:hC7cP41nSMkC:
@@ -86,7 +90,7 @@ papers:
     title: Balanced reward-inspired reinforcement learning for autonomous vehicle racing
     year: '2024'
   zyQOwasAAAAJ:u5HHmVD_uO8C:
-    citations: 28
+    citations: 29
     title: Efficient and balanced exploration-driven decision making for autonomous racing using local information
     year: '2024'
   zyQOwasAAAAJ:ufrVoPGSRksC:
