@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. in Autonomous Systems & Connectivity, <a href='https://www.gla.ac.uk/'>University of Glasgow</a>.
+subtitle: JSPS Postdoctoral Fellow, <a href='https://www.osaka-u.ac.jp/en'>The University of Osaka</a> / <a href='https://aip.riken.jp/'>RIKEN AIP</a>.
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   image_circular: false # transparent cutout — no circle crop, floats on the background
   more_info: >
     <p><strong>Zhihao Lin, Ph.D.</strong></p>
-    <p>University of Glasgow</p>
-    <p>Glasgow, U.K.</p>
+    <p>The University of Osaka / RIKEN AIP</p>
+    <p>Osaka, Japan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -35,7 +35,7 @@ My research centres on **representation learning for reinforcement learning**, a
 
 This question grew out of my early work on autonomous driving, where I kept running into the same quiet puzzle: better perception did not automatically lead to better decisions. The gap between *seeing* and *acting* never felt like something more data or bigger models would simply close — it seemed to point at something more fundamental about how an agent's understanding of the world becomes the way it chooses to act. That gap is what I keep returning to.
 
-My Ph.D. work approaches it from three angles:
+My work approaches it from three angles:
 
 - **Geometric policy optimisation** (GAC, ICLR 2026): treating bounded action spaces as a geometric constraint rather than an afterthought — replacing Gaussian policies and their ad-hoc squashing with an efficient spherical formulation that decomposes each action into a direction vector and a learnable concentration parameter.
 - **Action Manifold Smoothing** (AMS, ICML 2026): stabilising high-dimensional continuous control by replacing point-wise temporal-difference targets with orthogonally-sampled neighbourhood averages, taming the multiplicative *Lipschitz-pathway* error amplification that makes algorithms like TD3 and SAC collapse.
