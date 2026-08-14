@@ -27,7 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I received my Ph.D. in Autonomous Systems & Connectivity from the [University of Glasgow](https://www.gla.ac.uk/) in June 2026, supervised by [Dr. Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/). 📬 **Open for postdoctoral positions from Sept. 2026.**
+I am a JSPS Postdoctoral Fellow at [The University of Osaka](https://www.osaka-u.ac.jp/en) and [RIKEN AIP](https://aip.riken.jp/), working with [Prof. Yoshinobu Kawahara](https://mls.ist.osaka-u.ac.jp/en/~kawahara/) on operator-theoretic world models for multi-agent autonomous systems.
+
+I received my Ph.D. from the [University of Glasgow](https://www.gla.ac.uk/) in July 2026, supervised by [Dr. Jianglin Lan](https://www.gla.ac.uk/schools/engineering/staff/jianglinlan/).
 
 My research centres on **representation learning for reinforcement learning**, asking: *what should an RL agent learn to see, so that it can act well?*
 
