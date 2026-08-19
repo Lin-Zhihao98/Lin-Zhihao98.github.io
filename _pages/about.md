@@ -9,9 +9,8 @@ profile:
   image: prof_pic.png
   image_circular: false # transparent cutout — no circle crop, floats on the background
   more_info: >
-    <p><strong>Zhihao Lin, Ph.D.</strong></p>
-    <p>The University of Osaka / RIKEN AIP</p>
-    <p>Osaka, Japan</p>
+  <p><strong>Zhihao Lin, Ph.D.</strong></p>
+  <p>The University of Osaka / RIKEN AIP, Osaka, Japan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -43,4 +42,4 @@ My work approaches it from three angles:
 
 On the side, I have a deep personal interest in **theoretical physics**, particularly the information-theoretic foundations of gravity and cosmology.
 
-I am always happy to chat about RL, world models, embodied intelligence, or the physics of spacetime. Feel free to [reach out](mailto:kk43327897@gmail.com).
+I am always happy to chat about world models, embodied intelligence, or the physics of spacetime. Feel free to [reach out](mailto:kk43327897@gmail.com).

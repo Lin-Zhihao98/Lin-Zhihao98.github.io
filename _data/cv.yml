@@ -7,7 +7,7 @@ cv:
   summary: >
     Ph.D. researcher in Autonomous Systems & Connectivity at the University of Glasgow.
     Research on structure-aware reinforcement learning, multi-agent decision making, and
-    perception-integrated autonomy. On Google Scholar: h-index of 11 and over 500 citations (as of May 2026).
+    perception-integrated autonomy. On Google Scholar: h-index of 13 and over 600 citations (as of Aug. 2026).
 
   social_networks:
     - network: GitHub
@@ -97,10 +97,10 @@ cv:
           - Optimized trajectories with stability and dynamic-awareness for long-term autonomous deployment.
 
     Honors and Awards:
-      - title: Doctoral Scholarship
-        date: 2023
-        awarder: China Scholarship Council (CSC)
-        summary: "2023–2026"
+      - title: JSPS Postdoctoral Fellowship (Standard Program)
+        date: 2026-2028
+        awarder: Japan Society for the Promotion of Science (JSPS)
+        summary: "Competitive fellowship (5.6% acceptance rate) to conduct research at The University of Osaka and RIKEN AIP."
 
       - title: Research Mobility Fund
         date: 2025-04
