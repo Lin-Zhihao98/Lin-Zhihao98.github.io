@@ -1,20 +1,31 @@
 cv:
   name: Zhihao Lin
-  label: Ph.D. in Autonomous Systems & Connectivity
+  label: JSPS Postdoctoral Fellow
   email: kk43327897@gmail.com
-  location: Glasgow, United Kingdom
+  location: Osaka, Japan
   image: ""
   summary: >
-    Ph.D. researcher in Autonomous Systems & Connectivity at the University of Glasgow.
-    Research on structure-aware reinforcement learning, multi-agent decision making, and
-    perception-integrated autonomy. On Google Scholar: h-index of 13 and over 600 citations (as of Aug. 2026).
-
+    JSPS Postdoctoral Fellow at The University of Osaka and RIKEN AIP.
+    Ph.D. from the University of Glasgow (2026). Research on structure-aware
+    reinforcement learning, multi-agent decision making, and perception-integrated
+    autonomy. On Google Scholar: h-index of 13 and over 600 citations (as of Aug. 2026).
+  
   social_networks:
     - network: GitHub
       username: Lin-Zhihao98
 
   sections:
     Education:
+      - institution: The University of Osaka / RIKEN AIP
+        location: Osaka, Japan
+        url: https://www.osaka-u.ac.jp/
+        area: Operator World Models for Scalable and Safe Multi-Agent Autonomous Systems
+        studyType: JSPS Postdoctoral Fellow
+        start_date: 2026-09
+        end_date: ""
+        highlights:
+        - "Host supervisor: Prof. Yoshinobu Kawahara"
+
       - institution: University of Glasgow
         location: Glasgow, UK
         url: https://www.gla.ac.uk/
