@@ -22,7 +22,6 @@ cv:
         area: Operator World Models for Scalable and Safe Multi-Agent Autonomous Systems
         studyType: JSPS Postdoctoral Fellow
         start_date: 2026-09
-        end_date: ""
         highlights:
         - "Host supervisor: Prof. Yoshinobu Kawahara"
 
@@ -32,7 +31,7 @@ cv:
         area: Autonomous Systems & Connectivity
         studyType: Ph.D.
         start_date: 2023-02
-        end_date: 2026-04
+        end_date: 2026-07
         highlights:
           - "Supervisor: Dr. Jianglin Lan"
           - "Research interests: Structure-Aware RL, Multi-Agent Decision Making, and Perception-Integrated Autonomy"
@@ -109,9 +108,9 @@ cv:
 
     Honors and Awards:
       - title: JSPS Postdoctoral Fellowship (Standard Program)
-        date: 2026-2028
+        date: "2026"
         awarder: Japan Society for the Promotion of Science (JSPS)
-        summary: "Competitive fellowship (5.6% acceptance rate) to conduct research at The University of Osaka and RIKEN AIP."
+        summary: "2026–2028. Competitive fellowship (5.6% acceptance rate) to conduct research at The University of Osaka and RIKEN AIP."
 
       - title: Research Mobility Fund
         date: 2025-04
