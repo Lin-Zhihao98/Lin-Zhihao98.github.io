@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-08-21'
 papers:
   zyQOwasAAAAJ:-f6ydRqryjwC:
     citations: 4
@@ -30,7 +30,7 @@ papers:
     title: Safety-critical multi-agent mcts for mixed traffic coordination at unsignalized intersections
     year: '2025'
   zyQOwasAAAAJ:R3hNpaxXUhUC:
-    citations: 2
+    citations: 3
     title: 'Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning'
     year: '2026'
   zyQOwasAAAAJ:RHpTSmoSYBkC:
@@ -46,7 +46,7 @@ papers:
     title: Kan-lstm enhanced multi-agent advantage actor-critic reinforcement learning for autonomous ramp merging
     year: '2025'
   zyQOwasAAAAJ:YsMSGLbcyi4C:
-    citations: 40
+    citations: 41
     title: 'Bio-inspired hybrid path planning for efficient and smooth robotic navigation: F. Yuan et al.'
     year: '2025'
   zyQOwasAAAAJ:_FxGoFyzp5QC:
