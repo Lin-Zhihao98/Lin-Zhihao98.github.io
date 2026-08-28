@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-28'
 papers:
   zyQOwasAAAAJ:-f6ydRqryjwC:
-    citations: 4
+    citations: 6
     title: Hierarchical multi-agent mcts for safety-critical coordination in mixed-autonomy roundabouts
     year: '2026'
   zyQOwasAAAAJ:2osOgNQ5qMEC:
-    citations: 56
+    citations: 58
     title: 'Slam2: Simultaneous localization and multimode mapping for indoor dynamic environments'
     year: '2025'
   zyQOwasAAAAJ:4JMBOYKVnBMC:
@@ -46,7 +46,7 @@ papers:
     title: Kan-lstm enhanced multi-agent advantage actor-critic reinforcement learning for autonomous ramp merging
     year: '2025'
   zyQOwasAAAAJ:YsMSGLbcyi4C:
-    citations: 41
+    citations: 42
     title: 'Bio-inspired hybrid path planning for efficient and smooth robotic navigation: F. Yuan et al.'
     year: '2025'
   zyQOwasAAAAJ:_FxGoFyzp5QC:
@@ -94,14 +94,14 @@ papers:
     title: Scalable and Safe Multi-Agent Coordination with Reconstructed Level-k Monte Carlo Tree Search
     year: '2026'
   zyQOwasAAAAJ:u-x6o8ySG0sC:
-    citations: 21
+    citations: 22
     title: Balanced reward-inspired reinforcement learning for autonomous vehicle racing
     year: '2024'
   zyQOwasAAAAJ:u5HHmVD_uO8C:
-    citations: 29
+    citations: 30
     title: Efficient and balanced exploration-driven decision making for autonomous racing using local information
     year: '2024'
   zyQOwasAAAAJ:ufrVoPGSRksC:
-    citations: 18
+    citations: 21
     title: Contingency-aware spatiotemporal optimization for safe autonomous vehicle trajectory planning
     year: '2025'
