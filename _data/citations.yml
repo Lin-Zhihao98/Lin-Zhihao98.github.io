@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-28'
+  last_updated: '2026-09-02'
 papers:
   zyQOwasAAAAJ:-f6ydRqryjwC:
     citations: 6
@@ -22,7 +22,7 @@ papers:
     title: 'Evaluating scenario-based decision-making for interactive autonomous driving using rational criteria: A survey'
     year: '2025'
   zyQOwasAAAAJ:L8Ckcad2t8MC:
-    citations: 8
+    citations: 9
     title: Consumer-electronics-oriented safe interaction-aware motion planning for ramp driving with perception uncertainty quantification
     year: '2026'
   zyQOwasAAAAJ:LkGwnXOMwfcC:
@@ -30,7 +30,7 @@ papers:
     title: Safety-critical multi-agent mcts for mixed traffic coordination at unsignalized intersections
     year: '2025'
   zyQOwasAAAAJ:R3hNpaxXUhUC:
-    citations: 3
+    citations: 4
     title: 'Beyond Distributions: Geometric Action Control for Continuous Reinforcement Learning'
     year: '2026'
   zyQOwasAAAAJ:RHpTSmoSYBkC:
@@ -74,13 +74,9 @@ papers:
     title: Balanced exploration and attention-inspired decision making for autonomous driving
     year: '2026'
   zyQOwasAAAAJ:hC7cP41nSMkC:
-    citations: 4
+    citations: 5
     title: A two-stage spatiotemporal trajectory optimization framework for autonomous lane changing with dynamic risk fields
     year: '2026'
-  zyQOwasAAAAJ:kNdYIx-mwKoC:
-    citations: 0
-    title: 'PrefPoE: Advantage-Guided Preference Fusion for Learning Where to Explore'
-    year: '2025'
   zyQOwasAAAAJ:k_IJM867U9cC:
     citations: 13
     title: Data-driven evolutionary game-based model predictive control for hybrid renewable energy dispatch in autonomous ships
@@ -102,6 +98,6 @@ papers:
     title: Efficient and balanced exploration-driven decision making for autonomous racing using local information
     year: '2024'
   zyQOwasAAAAJ:ufrVoPGSRksC:
-    citations: 21
+    citations: 22
     title: Contingency-aware spatiotemporal optimization for safe autonomous vehicle trajectory planning
     year: '2025'
